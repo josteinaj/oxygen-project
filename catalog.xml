@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE catalog PUBLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN" "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <nextCatalog catalog="../pipeline-modules-common/catalog.xml"/>
+  <nextCatalog catalog="../pipeline-scripts-utils/catalog.xml"/>
+  <nextCatalog catalog="../pipeline-scripts/catalog.xml"/>
+  <nextCatalog catalog="../pipeline-mod-audio/catalog.xml"/>
+  <nextCatalog catalog="../pipeline-mod-tts/catalog.xml"/>
+  <nextCatalog catalog="../pipeline-mod-nlp/catalog.xml"/>
+
+  <!--
+    <nextCatalog catalog="../pipeline-mod-braille/catalog.xml"/>
+    awaiting https://github.com/daisy/pipeline-mod-braille/pull/27
+  -->
+  <nextCatalog catalog="../pipeline-mod-braille/pipeline-braille-scripts/zedai-to-pef/src/main/resources/META-INF/catalog.xml"/>
+  <nextCatalog catalog="../pipeline-mod-braille/pipeline-braille-scripts/dtbook-to-pef/src/main/resources/META-INF/catalog.xml"/>
+  <nextCatalog catalog="../pipeline-mod-braille/pipeline-braille-utils/common-utils/src/main/resources/META-INF/catalog.xml"/>
+  <nextCatalog catalog="../pipeline-mod-braille/pipeline-braille-utils/liblouis/liblouis-mathml/src/main/resources/META-INF/catalog.xml"/>
+  <nextCatalog catalog="../pipeline-mod-braille/pipeline-braille-utils/liblouis/liblouis-formatter/src/main/resources/META-INF/catalog.xml"/>
+  <nextCatalog catalog="../pipeline-mod-braille/pipeline-braille-utils/liblouis/liblouis-calabash/src/main/resources/META-INF/catalog.xml"/>
+  <nextCatalog catalog="../pipeline-mod-braille/pipeline-braille-utils/texhyph-utils/src/main/resources/META-INF/catalog.xml"/>
+  <nextCatalog catalog="../pipeline-mod-braille/pipeline-braille-utils/libhyphen-utils/src/main/resources/META-INF/catalog.xml"/>
+  <nextCatalog catalog="../pipeline-mod-braille/pipeline-braille-utils/pef-utils/src/main/resources/META-INF/catalog.xml"/>
+  <nextCatalog catalog="../pipeline-mod-braille/pipeline-braille-utils/css-utils/src/main/resources/META-INF/catalog.xml"/>
+  <nextCatalog catalog="../pipeline-mod-braille/pipeline-braille-utils/css/css-calabash/src/main/resources/META-INF/catalog.xml"/>
+  <nextCatalog catalog="../pipeline-mod-braille/pipeline-braille-utils/css/css-core/src/main/resources/META-INF/catalog.xml"/>
+  <nextCatalog catalog="../pipeline-mod-braille/pipeline-braille-utils/dotify/dotify-formatter/src/main/resources/META-INF/catalog.xml"/>
+  <nextCatalog catalog="../pipeline-mod-braille/pipeline-braille-utils/dotify/dotify-calabash/src/main/resources/META-INF/catalog.xml"/>
+  <nextCatalog catalog="../pipeline-mod-braille/pipeline-braille-utils/obfl-utils/src/main/resources/META-INF/catalog.xml"/>
+  <nextCatalog catalog="../pipeline-mod-braille/pipeline-braille-utils/dotify-utils/src/main/resources/META-INF/catalog.xml"/>
+  <nextCatalog catalog="../pipeline-mod-braille/pipeline-braille-utils/liblouis-utils/src/main/resources/META-INF/catalog.xml"/>
+  <nextCatalog catalog="../pipeline-mod-braille/pipeline-braille-utils/pef/pef-to-html/src/main/resources/META-INF/catalog.xml"/>
+  <nextCatalog catalog="../pipeline-mod-braille/pipeline-braille-utils/pef/pef-calabash/src/main/resources/META-INF/catalog.xml"/>
+
+  <nextCatalog catalog="../xprocspec/xprocspec/src/main/resources/META-INF/catalog.xml"/>
+</catalog>
